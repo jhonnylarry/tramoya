@@ -1,0 +1,14 @@
+{
+  "conexiones": 200,
+  "duracion_s": 15.02,
+  "req_total": 129019,
+  "req_seg": 8602.4,
+  "lat_prom_ms": 22.73,
+  "lat_p50_ms": 21,
+  "lat_p97_5_ms": 28,
+  "lat_p99_ms": 31,
+  "lat_max_ms": 2297,
+  "errores": 0,
+  "non2xx": 0,
+  "timeouts": 0
+}

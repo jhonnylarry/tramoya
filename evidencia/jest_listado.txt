@@ -1,0 +1,42 @@
+respaldo.test.js
+   PASA  NF-10 respaldo y restauracion recuperan datos y documentos tras perdida total
+   PASA  NF-10 un respaldo alterado es rechazado
+tramoya.test.js
+   PASA  RF-1 Autenticacion y sesion > CP-01 RF-1.1 login exitoso entrega JWT
+   PASA  RF-1 Autenticacion y sesion > CP-02 RF-1.1 login con clave incorrecta es rechazado sin revelar el motivo
+   PASA  RF-1 Autenticacion y sesion > CP-03 RF-1.2 logout revoca el token
+   PASA  RF-1 Autenticacion y sesion > CP-04 NFR-SEG-9 sin token no se accede a recursos
+   PASA  RF-2 Registro y productora > CP-05 NFR-SEG-2 la contrasena se guarda con hash bcrypt
+   PASA  RF-2 Registro y productora > CP-06 RF-2.1 politica de contrasenas (12 car, may, min, num, simbolo)
+   PASA  RF-2 Registro y productora > CP-07 RF-2.2/2.3 quien crea la productora queda como administrador
+   PASA  RF-2 Registro y productora > CP-08 RB-1 correo de productora no puede repetirse
+   PASA  RF-3 Roles > CP-09 RF-3.1 admin asigna rol coordinador y este puede consultar
+   PASA  RF-3 Roles > CP-10 RF-3.2 / RB-4 coordinador no puede crear clientes
+   PASA  RF-3 Roles > CP-11 RF-3.3 admin quita a un usuario de la productora
+   PASA  RF-3 Roles > CP-12 RB-2 usuario de otra productora no accede a datos (aislamiento)
+   PASA  RF-4 Clientes organizadores > CP-13 RF-4.1 crear y listar con paginacion y filtro
+   PASA  RF-4 Clientes organizadores > CP-14 RF-4.3 validacion de campos (nombre con caracteres no permitidos)
+   PASA  RF-4 Clientes organizadores > CP-15 RF-4.2 eliminacion logica exige confirmacion
+   PASA  RF-4 Clientes organizadores > CP-16 NFR-SEG-5 SQL injection en filtro no altera la consulta
+   PASA  RF-4 Clientes organizadores > CP-17 NFR-SEG-5 XSS en campo libre se almacena escapado
+   PASA  RF-4 Clientes organizadores > CP-31 RF-4.3 RUT con digito verificador incorrecto es rechazado
+   PASA  RF-4 Clientes organizadores > CP-32 RF-4.3 tipo de cliente distinto de persona o empresa es rechazado
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-18 RF-5.1 / RB-3 crear evento asociado a un cliente queda cotizado
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-19 RF-5.1 fecha, recinto o aforo invalidos son rechazados
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-20 RF-5.4 estado del evento segun confirmacion y fecha
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-21 RF-5.2/5.3 subir contrato PDF, se guarda en storage interno y se referencia en BD
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-22 RF-5.2 formato no permitido (.exe o PDF falso) es rechazado
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-23 RF-5.5 enlace de cotizacion descarga la cotizacion
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-24 NFR-SEG-4 descarga de documento de otra productora es denegada
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-33 RB-8 monto que no es entero positivo en pesos es rechazado
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-34 RB-7 un evento no se confirma sin contrato PDF adjunto
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-35 RB-6 no se confirman dos eventos en el mismo recinto y fecha
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-36 RB-4 coordinador no puede confirmar eventos ni adjuntar documentos
+   PASA  RF-5 Eventos, cotizacion y contrato > CP-37 RF-5.5 sin cotizacion no se genera enlace (el contrato no se comparte)
+   PASA  RF-6 Auditoria > CP-25 RF-6.1 acciones criticas quedan registradas
+   PASA  RF-6 Auditoria > CP-26 coordinador no puede leer la auditoria
+   PASA  Pruebas complementarias > CP-27 NFR-SEG-6 la auditoria no almacena contrasenas ni hashes
+   PASA  Pruebas complementarias > CP-28 NFR-USAB-4 flujo cliente -> eventos con estado calculado
+   PASA  Pruebas complementarias > CP-30 RF-4.1 cliente sin campos opcionales (como envia el formulario)
+   PASA  Pruebas complementarias > CP-29 RF-5.2 subida de un PDF de 5 MB en menos de 10 segundos
+Total: 39 | Pasaron: 39 | Fallaron: 0

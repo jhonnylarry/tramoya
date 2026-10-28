@@ -1,0 +1,12 @@
+npm audit --omit=dev (28-10-2026)
+9 vulnerabilities (4 low, 1 moderate, 4 high)
+Paquetes afectados:
+body-parser  <=1.20.8 || 2.0.0-beta.1 - 2.0.2
+compression  <=1.8.1
+cookie  <0.7.0
+on-headers  <1.1.0
+path-to-regexp  <=0.1.12
+qs  <=6.16.0
+send  <0.19.0
+Express instalado: 4.19.2
+Nuevo respecto del 25-10: compression <=1.8.1 (alta) y on-headers <1.1.0 (baja).

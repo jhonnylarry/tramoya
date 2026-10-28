@@ -1,0 +1,49 @@
+- Semantic Grep  0
+- Semantic Grep  1
+- Semantic Grep  2
+- Semantic Grep  3
+- Semantic Grep  4
+- Semantic Grep  5
+- Semantic Grep  6
+- Semantic Grep  7
+- Semantic Grep  8
+- Semantic Grep  9
+- Semantic Grep  10
+- Semantic Grep  11
+- Semantic Grep  12
+- Semantic Grep  13
+- Semantic Grep  14
+- Semantic Grep  15
+- Semantic Grep  16
+- Semantic Grep  17
+- Semantic Grep  18
+- Semantic Grep  19
+- Semantic Grep  20
+- Semantic Grep  21
+njsscan: v1.0.2 | Ajin Abraham | opensecurity.in
+╒═════════════╤═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╕
+│ RULE ID     │ join_resolve_path_traversal                                                                                                   │
+├─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ OWASP-WEB   │ A5: Broken Access Control                                                                                                     │
+├─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ CWE         │ CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')                                        │
+├─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ DESCRIPTION │ Path constructed with user input can result in Path Traversal. Ensure that user input does not reach `join()` or `resolve()`. │
+├─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ SEVERITY    │ WARNING                                                                                                                       │
+├─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ FILES       │ ╒════════════════╤═════════════════════════════════════════════════════════════════════════════════════════╕                  │
+│             │ │ File           │ src/app.js                                                                              │                  │
+│             │ ├────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤                  │
+│             │ │ Match Position │ 5 - 68                                                                                  │                  │
+│             │ ├────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤                  │
+│             │ │ Line Number(s) │ 276: 281                                                                                │                  │
+│             │ ├────────────────┼─────────────────────────────────────────────────────────────────────────────────────────┤                  │
+│             │ │ Match String   │ const d = db.prepare('SELECT * FROM documentos WHERE id=?').get(Number(req.params.id)); │                  │
+│             │ │                │     if (!d) return res.status(404).json({ error: 'No encontrado' });                    │                  │
+│             │ │                │     const { k, error } = eventoConAcceso(d.evento_id, req.user.sub);                    │                  │
+│             │ │                │     if (error) return res.status(error).json({ error: 'Sin acceso' });                  │                  │
+│             │ │                │     audit(k.productora_id, req.user.sub, 'descargar', d.tipo, d.id);                    │                  │
+│             │ │                │     res.download(path.join(storageDir, d.ruta), d.nombre_original);                     │                  │
+│             │ ╘════════════════╧═════════════════════════════════════════════════════════════════════════════════════════╛                  │
+╘═════════════╧═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╛

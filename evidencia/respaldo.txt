@@ -1,0 +1,2 @@
+    NF-10 tiempo respaldo+restauracion (ms): 3 | filas antes: [ 1, 1, 1, 1, 1 ]
+Tests:       2 passed, 2 total

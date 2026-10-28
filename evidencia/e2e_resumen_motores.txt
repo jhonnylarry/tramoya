@@ -1,0 +1,5 @@
+Motor: chromium 156.0.8078.4 -> Total: 18 | Pasaron: 18 | Fallaron: 0
+Motor: firefox 157.0 -> Total: 18 | Pasaron: 18 | Fallaron: 0
+Motor: webkit 27.2 -> Total: 18 | Pasaron: 16 | Fallaron: 2
+   FALLA E2E-06 primer Tab enfoca el enlace "Saltar al contenido" INPUT.:
+   FALLA E2E-07 login completo usando solo teclado 

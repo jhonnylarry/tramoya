@@ -1,0 +1,1 @@
+join_resolve_path_traversal | WARNING | CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | A5: Broken Access Control | lineas ['app.js:276']

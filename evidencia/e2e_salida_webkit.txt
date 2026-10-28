@@ -1,0 +1,21 @@
+Motor: webkit 27.2
+PASA  E2E-01a politica de contrasena visible al usuario La contraseña debe tener al menos 12 caracteres, con mayúscula, minúscula, número y símbolo.
+PASA  E2E-01b registro e inicio de sesion llevan a crear productora 
+PASA  AXE crear productora 0 violaciones WCAG 2.1 A/AA
+PASA  E2E-02 crear productora deja al usuario como administrador en Clientes 
+PASA  E2E-03b RUT con digito verificador incorrecto muestra mensaje claro Revise los datos del cliente: el nombre solo admite letras, números y signos básicos, y el RUT debe tener un dígito verificador válido (por ejemplo 12.345.678-5).
+PASA  AXE clientes 0 violaciones WCAG 2.1 A/AA
+PASA  E2E-03 mensaje amigable ante dato invalido Revise los datos del cliente: el nombre solo admite letras, números y signos básicos, y el RUT debe tener un dígito verificador válido (por ejemplo 12.345.678-5).
+PASA  E2E-04 evento nuevo queda en estado Cotizado estado=Cotizado
+PASA  E2E-05a RB-7 no permite confirmar sin contrato y lo explica Para confirmar el evento primero adjunte el contrato en PDF.
+PASA  E2E-05b con contrato adjunto el evento a 20 dias queda Proximo estado=Próximo
+PASA  AXE eventos 0 violaciones WCAG 2.1 A/AA
+FALLA E2E-06 primer Tab enfoca el enlace "Saltar al contenido" INPUT.:
+FALLA E2E-07 login completo usando solo teclado 
+PASA  E2E-08 controles interactivos de al menos 44 px todos >= 44 px
+PASA  E2E-09 tipografia base de al menos 12 px (ERS 3.1.1) 16px
+PASA  RESP-movil (375x812) sin desborde horizontal 
+PASA  RESP-tablet (768x1024) sin desborde horizontal 
+PASA  RESP-escritorio (1440x900) sin desborde horizontal 
+
+Total: 18 | Pasaron: 16 | Fallaron: 2

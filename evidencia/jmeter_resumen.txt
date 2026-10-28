@@ -1,0 +1,3 @@
+JMeter 5.6.3, modo no grafico, rampa 5 s, duracion 30 s, GET listado de clientes + GET eventos de un cliente (con JWT)
+10 usuarios: muestras 250323 | errores 0 (0.00 %) | promedio 1.08 ms | mediana 1 ms | p90 2 ms | p95 2 ms | p99 4 ms | max 33 ms | rendimiento 8390 sol/s
+200 usuarios: muestras 185729 | errores 0 (0.00 %) | promedio 29.32 ms | mediana 26 ms | p90 41 ms | p95 47 ms | p99 69 ms | max 312 ms | rendimiento 6196 sol/s

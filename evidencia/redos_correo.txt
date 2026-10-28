@@ -1,0 +1,10 @@
+a@ + puntos + espacio | largo 5003 | ms 20
+a@ + puntos + espacio | largo 20003 | ms 318
+a@ + puntos + espacio | largo 50003 | ms 2014
+a@ + a.a... + @ | largo 5003 | ms 10
+a@ + a.a... + @ | largo 20003 | ms 159
+a@ + a.a... + @ | largo 50003 | ms 1002
+a@a + .a repetido + espacio | largo 5004 | ms 11
+a@a + .a repetido + espacio | largo 20004 | ms 152
+a@a + .a repetido + espacio | largo 50004 | ms 1042
+EV-REDOS: POST /api/auth/register sin autenticacion, correo de 95003 caracteres -> HTTP 400 en 8316 ms (el proceso no atiende otras solicitudes mientras tanto)

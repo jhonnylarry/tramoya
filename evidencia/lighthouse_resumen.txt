@@ -1,0 +1,2 @@
+mobile: Lighthouse 13.5.0 | puntajes {'rendimiento': 100, 'accesibilidad': 100, 'buenas_practicas': 100, 'seo': 91} | LCP 1396 ms | FCP 1.4 s | TBT 20 ms | CLS 0 | fallas: robots-txt
+desktop: Lighthouse 13.5.0 | puntajes {'rendimiento': 100, 'accesibilidad': 100, 'buenas_practicas': 100, 'seo': 91} | LCP 327 ms | FCP 0.3 s | TBT 0 ms | CLS 0 | fallas: robots-txt

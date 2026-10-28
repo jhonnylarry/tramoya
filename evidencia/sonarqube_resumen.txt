@@ -1,0 +1,34 @@
+SonarQube Community 26.10 (Docker local), proyecto tramoya: src, frontend/src y scripts, cobertura desde Jest (lcov)
+  alert_status: OK
+  bugs: 9
+  code_smells: 3
+  coverage: 68.9
+  duplicated_lines_density: 0.0
+  line_coverage: 66.3
+  ncloc: 816
+  reliability_rating: C
+  security_hotspots: 0
+  security_rating: C
+  security_review_rating: A
+  sqale_rating: A
+  vulnerabilities: 3
+Incidencias abiertas: 15
+  RELIABILITY / MEDIUM: 12
+  SECURITY / LOW: 1
+  SECURITY / MEDIUM: 2
+  - frontend/src/App.jsx:137 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:141 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:219 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:225 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:230 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:297 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:298 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:299 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - frontend/src/App.jsx:345 [MEDIUM] javascript:S9383 Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+  - src/app.js:20 [LOW] javascript:S5689 This framework implicitly discloses version information by default. Make sure it is safe here.
+  - src/app.js:21 [MEDIUM] javascript:S5122 Make sure that enabling CORS is safe here.
+  - src/app.js:24 [MEDIUM] javascript:S5693 Make sure the content length limit is safe here.
+  - src/app.js:169 [MEDIUM] javascript:S7773 Prefer `Number.parseInt` over `parseInt`.
+  - src/app.js:170 [MEDIUM] javascript:S7773 Prefer `Number.parseInt` over `parseInt`.
+  - src/validacion.js:10 [MEDIUM] javascript:S8786 Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking.
+Puntos criticos de seguridad (hotspots): 0

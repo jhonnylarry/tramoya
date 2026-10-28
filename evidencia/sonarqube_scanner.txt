@@ -1,0 +1,111 @@
+16:53:50.845 INFO  Scanner configuration file: /opt/homebrew/Cellar/sonar-scanner/8.3.0.16463/libexec/conf/sonar-scanner.properties
+16:53:50.848 INFO  Project root configuration file: sonar-project.properties
+16:53:50.865 INFO  SonarScanner CLI 8.3.0.16463
+16:53:50.867 INFO  Mac OS X 15.5 aarch64
+16:54:01.906 INFO  Communicating with SonarQube Community Build 26.10.0.133078
+16:54:01.917 INFO  JRE provisioning: os[macos], arch[arm64]
+WARNING: Final field id in class org.sonarsource.scanner.lib.internal.facade.forked.JavaRunnerFactory$JreMetadata has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @754ba872 (file:/opt/homebrew/Cellar/sonar-scanner/8.3.0.16463/libexec/lib/sonar-scanner-cli-8.3.0.16463.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+16:54:19.189 INFO  Starting SonarScanner Engine...
+16:54:19.198 INFO  Java 21.0.12.1 Eclipse Adoptium (64-bit)
+16:54:22.589 INFO  Load global settings
+16:54:23.696 INFO  Load global settings (done) | time=1098ms
+16:54:23.697 INFO  Server id: 147B411E-AaGECa13D1vbLQMLJf8I
+16:54:23.705 INFO  Loading required plugins
+16:54:23.705 INFO  Load plugins index
+16:54:24.046 INFO  Load plugins index (done) | time=340ms
+16:54:24.047 INFO  Load/download plugins
+16:54:25.344 INFO  Load/download plugins (done) | time=1295ms
+16:54:25.519 INFO  Load project settings for component key: 'tramoya'
+16:54:25.619 INFO  Process project properties
+16:54:25.624 INFO  Process project properties (done) | time=9ms
+16:54:25.696 INFO  Project key: tramoya
+16:54:25.696 INFO  Base dir: .
+16:54:25.696 INFO  Working dir: .scannerwork
+16:54:25.723 INFO  Load quality profiles
+16:54:27.008 INFO  Load quality profiles (done) | time=1280ms
+16:54:27.024 WARN  SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+16:54:27.031 INFO  Load active rules
+16:54:28.400 INFO  Load active rules (done) | time=1366ms
+16:54:28.401 INFO  Load analysis cache
+16:54:28.431 INFO  Load analysis cache (404) | time=29ms
+16:54:28.501 INFO  Preprocessing files...
+16:54:28.537 INFO  2 languages detected in 13 preprocessed files (done) | time=36ms
+16:54:28.537 INFO  0 files ignored because of inclusion/exclusion patterns
+16:54:28.538 INFO  Loading plugins for detected languages
+16:54:28.538 INFO  Load/download plugins
+16:54:34.387 INFO  Load/download plugins (done) | time=5845ms
+16:54:34.584 INFO  Load project repositories
+16:54:34.712 INFO  Load project repositories (done) | time=126ms
+16:54:34.743 INFO  Indexing files...
+16:54:34.744 INFO  Project configuration:
+16:54:34.744 INFO    Excluded sources: **/node_modules/**, frontend/dist/**
+16:54:34.762 INFO  13 files indexed (done) | time=18ms
+16:54:34.766 INFO  Quality profile for css: Sonar way core
+16:54:34.766 INFO  Quality profile for js: Sonar way core
+16:54:34.766 INFO  ------------- Run sensors on module Tramoya
+16:54:34.845 INFO  Load metrics repository
+16:54:35.010 INFO  Load metrics repository (done) | time=162ms
+16:54:35.524 INFO  Reflections took 68 ms to scan 1 urls, producing 30 keys and 303 values
+16:54:35.616 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+16:54:35.618 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=1ms
+16:54:35.618 INFO  Sensor IaC hadolint report Sensor [iac]
+16:54:35.618 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+16:54:35.618 INFO  Sensor Java Config Sensor [iac]
+16:54:35.620 INFO  There are no files to be analyzed for the Java language
+16:54:35.621 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+16:54:35.621 INFO  Sensor IaC Docker Sensor [iac]
+16:54:35.622 INFO  There are no files to be analyzed for the Docker language
+16:54:35.622 INFO  Sensor IaC Docker Sensor [iac] (done) | time=1ms
+16:54:35.622 INFO  Sensor HTML [web]
+16:54:35.632 INFO  Sensor HTML [web] (done) | time=7ms
+16:54:35.632 INFO  Sensor JavaScript/TypeScript Coverage [javascript]
+16:54:35.632 INFO  Analysing [coverage/lcov.info]
+16:54:35.731 INFO  Sensor JavaScript/TypeScript Coverage [javascript] (done) | time=100ms
+16:54:35.731 INFO  Sensor TextAndSecretsSensor [text]
+16:54:35.844 INFO  Available processors: 8
+16:54:35.845 INFO  Using 8 threads for analysis.
+16:54:36.375 INFO  Start fetching files for the text and secrets analysis
+16:54:36.562 INFO  Using Git CLI to retrieve dirty files
+16:54:36.636 WARN  Retrieving only language associated files, make sure to run the analysis inside a git repository to make use of inclusions specified via "sonar.text.inclusions"
+16:54:36.636 INFO  Starting the text and secrets analysis
+16:54:36.637 INFO  13 source files to be analyzed for the text and secrets analysis
+16:54:36.790 INFO  13/13 source files have been analyzed for the text and secrets analysis
+16:54:36.790 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1058ms
+16:54:36.799 INFO  ------------- Run sensors on project
+16:54:37.284 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+16:54:38.701 INFO  Detected os: Mac OS X arch: aarch64 alpine: false. Platform: DARWIN_ARM64
+16:54:38.701 INFO  Deploy location ~/.sonar/js/node-runtime, tagetRuntime: ~/.sonar/js/node-runtime/node,  version: ~/.sonar/js/node-runtime/version.txt
+16:54:45.579 INFO  Using embedded Node.js runtime.
+16:54:45.581 INFO  Using Node.js executable: '~/.sonar/js/node-runtime/node'.
+16:54:47.331 INFO  Memory configuration: OS (8192 MB), Node.js (2240 MB).
+16:54:47.344 INFO  gRPC analyze-project server listening on 127.0.0.1:59131
+16:54:47.658 INFO  Plugin version: [14.0.0.46108]
+16:54:52.556 INFO  Found 0 tsconfig.json file(s): []
+16:54:52.557 INFO  13 source files to be analyzed
+16:54:52.559 INFO  Analyzing 12 file(s) using default options [lib: lib.esnext.d.ts, lib.dom.d.ts]
+16:54:52.560 INFO  13/13 source files have been analyzed
+16:54:52.570 INFO  Hit the cache for 0 out of 12
+16:54:52.573 INFO  Miss the cache for 12 out of 12: ANALYSIS_MODE_INELIGIBLE [12/12]
+16:54:52.573 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=15295ms
+16:54:52.574 INFO  Sensor IaC Project Sensor [iac]
+16:54:52.576 INFO  Sensor IaC Project Sensor [iac] (done) | time=2ms
+16:54:52.577 INFO  Sensor Zero Coverage Sensor
+16:54:52.585 INFO  Sensor Zero Coverage Sensor (done) | time=7ms
+16:54:52.585 INFO  ------------- Gather SCA dependencies on project
+16:54:52.599 INFO  Dependency analysis skipped
+16:54:52.601 INFO  SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+16:54:52.605 INFO  CPD Executor 5 files had no CPD blocks
+16:54:52.606 INFO  CPD Executor Calculating CPD for 4 files
+16:54:52.615 INFO  CPD Executor CPD calculation finished (done) | time=10ms
+16:54:52.787 INFO  Analysis report generated in 166ms, dir size=388.4 kB
+16:54:52.849 INFO  Analysis report compressed in 62ms, zip size=150.0 kB
+16:54:56.009 INFO  Analysis report uploaded in 3150ms
+16:54:56.013 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=tramoya
+16:54:56.014 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+16:54:56.014 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=1f742033-d067-4085-8d74-462620a91701
+16:54:56.627 INFO  Analysis total time: 37.394 s
+16:54:56.658 INFO  SonarScanner Engine completed successfully
+16:54:56.698 INFO  EXECUTION SUCCESS
+16:54:56.711 INFO  Total time: 1:05.863s

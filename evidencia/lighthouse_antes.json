@@ -1,0 +1,44 @@
+{
+  "mobile": {
+    "version": "13.5.0",
+    "url": "http://localhost:3000/",
+    "puntajes": {
+      "rendimiento": 97,
+      "accesibilidad": 100,
+      "buenas_practicas": 100,
+      "seo": 91
+    },
+    "metricas": {
+      "FCP": "2.1 s",
+      "LCP": "2.1 s",
+      "TBT": "0 ms",
+      "CLS": "0",
+      "SpeedIndex": "2.1 s"
+    },
+    "LCP_ms": 2077,
+    "fallas": [
+      "robots-txt"
+    ]
+  },
+  "desktop": {
+    "version": "13.5.0",
+    "url": "http://localhost:3000/",
+    "puntajes": {
+      "rendimiento": 100,
+      "accesibilidad": 100,
+      "buenas_practicas": 100,
+      "seo": 91
+    },
+    "metricas": {
+      "FCP": "0.5 s",
+      "LCP": "0.5 s",
+      "TBT": "0 ms",
+      "CLS": "0",
+      "SpeedIndex": "0.5 s"
+    },
+    "LCP_ms": 475,
+    "fallas": [
+      "robots-txt"
+    ]
+  }
+}

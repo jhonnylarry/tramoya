@@ -1,0 +1,86 @@
+[
+  {
+    "id": "E2E-01a politica de contrasena visible al usuario",
+    "ok": true,
+    "det": "La contraseña debe tener al menos 12 caracteres, con mayúscula, minúscula, número y símbolo."
+  },
+  {
+    "id": "E2E-01b registro e inicio de sesion llevan a crear productora",
+    "ok": true
+  },
+  {
+    "id": "AXE crear productora",
+    "ok": true,
+    "det": "0 violaciones WCAG 2.1 A/AA"
+  },
+  {
+    "id": "E2E-02 crear productora deja al usuario como administrador en Clientes",
+    "ok": true
+  },
+  {
+    "id": "E2E-03b RUT con digito verificador incorrecto muestra mensaje claro",
+    "ok": true,
+    "det": "Revise los datos del cliente: el nombre solo admite letras, números y signos básicos, y el RUT debe tener un dígito verificador válido (por ejemplo 12.345.678-5)."
+  },
+  {
+    "id": "AXE clientes",
+    "ok": true,
+    "det": "0 violaciones WCAG 2.1 A/AA"
+  },
+  {
+    "id": "E2E-03 mensaje amigable ante dato invalido",
+    "ok": true,
+    "det": "Revise los datos del cliente: el nombre solo admite letras, números y signos básicos, y el RUT debe tener un dígito verificador válido (por ejemplo 12.345.678-5)."
+  },
+  {
+    "id": "E2E-04 evento nuevo queda en estado Cotizado",
+    "ok": true,
+    "det": "estado=Cotizado"
+  },
+  {
+    "id": "E2E-05a RB-7 no permite confirmar sin contrato y lo explica",
+    "ok": true,
+    "det": "Para confirmar el evento primero adjunte el contrato en PDF."
+  },
+  {
+    "id": "E2E-05b con contrato adjunto el evento a 20 dias queda Proximo",
+    "ok": true,
+    "det": "estado=Próximo"
+  },
+  {
+    "id": "AXE eventos",
+    "ok": true,
+    "det": "0 violaciones WCAG 2.1 A/AA"
+  },
+  {
+    "id": "E2E-06 primer Tab enfoca el enlace \"Saltar al contenido\"",
+    "ok": false,
+    "det": "INPUT.:"
+  },
+  {
+    "id": "E2E-07 login completo usando solo teclado",
+    "ok": false
+  },
+  {
+    "id": "E2E-08 controles interactivos de al menos 44 px",
+    "ok": true,
+    "det": "todos >= 44 px"
+  },
+  {
+    "id": "E2E-09 tipografia base de al menos 12 px (ERS 3.1.1)",
+    "ok": true,
+    "det": "16px"
+  },
+  {
+    "id": "RESP-movil (375x812) sin desborde horizontal",
+    "ok": true
+  },
+  {
+    "id": "RESP-tablet (768x1024) sin desborde horizontal",
+    "ok": true
+  },
+  {
+    "id": "RESP-escritorio (1440x900) sin desborde horizontal",
+    "ok": true
+  }
+]

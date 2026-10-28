@@ -1,0 +1,4 @@
+EV-BRUTA: 30 intentos fallidos -> 401 | login correcto tras 30 fallos -> 200
+EV-HEADERS: {"x-powered-by":"Express","access-control-allow-origin":"*"}
+EV-ENLACE: descarga 8 dias despues -> 200 | ruta de revocacion: no existe
+EV-SECRET: token valido con el secreto por defecto (sin JWT_SECRET definido)

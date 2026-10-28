@@ -1,0 +1,33 @@
+
+#16 [stage-1 7/7] RUN mkdir -p /app/storage && chown node:node /app/storage
+#16 DONE 0.1s
+
+#17 exporting to image
+#17 exporting layers
+#17 exporting layers 0.6s done
+#17 exporting manifest sha256:11cc41593b68929a06189dbff7b294cf1827e3ef9dc684aab4f9c70f4a07447d done
+#17 exporting config sha256:4317458bf7dc55ed6ee39f446cb5baac4fac8c147b0583dcf0cb346aae9b5777 done
+#17 exporting attestation manifest sha256:73f5228ea69e86198593334e9420a77120d55142ed2eba6a5b5b5761eaaa28e7 0.0s done
+#17 exporting manifest list sha256:f748e1e3dd0c2e97089f9149e52259cfdbb2e5dcd12e7354daf8d8f7a44b6b4e done
+#17 naming to docker.io/library/tramoya:latest done
+#17 unpacking to docker.io/library/tramoya:latest
+#17 unpacking to docker.io/library/tramoya:latest 0.3s done
+#17 DONE 0.9s
+ceb5334c7da47802f527d7a0eac2b8509699a19afd19a3ddd1f18827fa533100
+--- GET /api/health
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 11
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Date: Wed, 28 Oct 2026 19:30:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true}--- GET / (frontend)
+HTTP 200, 564 bytes
+--- usuario del proceso
+uid=1000(node) gid=1000(node) groups=1000(node)
+imagen: tramoya:latest tamano: 251MB
+tramoya

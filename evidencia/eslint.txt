@@ -1,0 +1,14 @@
+
+src/app.js
+   23:3   warning  Found mkdirSync from package "fs" with non literal argument at index 0      security/detect-non-literal-fs-filename
+  151:11  warning  Generic Object Injection Sink                                               security/detect-object-injection
+  151:33  warning  Generic Object Injection Sink                                               security/detect-object-injection
+  151:64  warning  Function Call Object Injection Sink                                         security/detect-object-injection
+  251:5   warning  Found writeFileSync from package "fs" with non literal argument at index 0  security/detect-non-literal-fs-filename
+
+src/validacion.js
+  34:20  warning  Function Call Object Injection Sink  security/detect-object-injection
+  53:48  warning  Generic Object Injection Sink        security/detect-object-injection
+
+✖ 7 problems (0 errors, 7 warnings)
+
