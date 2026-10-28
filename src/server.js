@@ -1,0 +1,11 @@
+const path = require('path');
+const express = require('express');
+const compression = require('compression');
+const { crearApp } = require('./app');
+const { app } = crearApp({ dbRuta: process.env.DB_PATH || ':memory:' });
+const dist = path.join(__dirname, '..', 'frontend', 'dist');
+app.use(compression());
+app.use(express.static(dist));
+app.get(/^\/(?!api).*/, (req, res) => res.sendFile(path.join(dist, 'index.html')));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Tramoya escuchando en ${port}`));
