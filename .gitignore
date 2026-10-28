@@ -1,0 +1,11 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+storage/
+coverage/
+.scannerwork/
+jmeter.log
+*.jtl
+informe/pages.json
+CLAUDE.md
+.DS_Store
