@@ -1,6 +1,6 @@
 # EP4: guion de la defensa y preguntas probables
 
-Presentación: 10 láminas, unos 8 minutos de lectura (deja margen para pausas). El guion completo de cada lámina está en las notas del orador de la presentación; abajo va la versión resumida para estudiar.
+Presentación: 12 láminas, unos 9 minutos y 45 segundos. El guion completo de cada lámina está en las notas del orador; abajo va la versión resumida para estudiar.
 
 ## Guion por lámina
 
@@ -9,15 +9,17 @@ Presentación: 10 láminas, unos 8 minutos de lectura (deja margen para pausas).
 | 1 | Portada | 0:20 | Qué es Tramoya y el orden de la exposición. |
 | 2 | Reglas del negocio | 0:50 | 45 requisitos. RB-6, RB-7 y RB-8 con lo que pierde la productora si fallan. |
 | 3 | Enfoque estratégico | 0:50 | Prioridad por riesgo en cuatro niveles. Casos negativos: con solo el flujo feliz no aparece ningún defecto. |
-| 4 | Herramientas | 0:45 | Las que pidió el profesor (Jest, JMeter, SonarQube, Lighthouse) y para qué sirve cada una de las demás. |
+| 4 | Herramientas | 0:45 | Las que pidió el profe (Jest, JMeter, SonarQube, Lighthouse) y para qué sirve cada una de las demás. |
 | 5 | Ejecución | 1:00 | 39/39, 29 ms con 200 usuarios, LCP 1,4 s, WebKit 16/18, SonarQube C, 9 vulnerabilidades. Las primeras corridas de JMeter se descartaron por un error de montaje, y lo digo. |
-| 6 | Cobertura | 0:45 | Diseño 100 %, ejecución 95,6 %, código 93,3 %. Por qué SonarQube dice 68,9 %. |
-| 7 | Defectos | 0:55 | 16 incidentes en 4 niveles; crítico INC-02; INC-07 queda en observación, no cerrado. |
-| 8 | Hallazgo INC-16 | 0:55 | SonarQube lo marcó y yo lo reproduje: 8,3 s de bloqueo con una sola solicitud. |
-| 9 | Reflexiones | 1:00 | Calidad, seguridad, normativa (Ley 21.719) y ética (Ley 21.459, transparencia). |
-| 10 | Dictamen | 0:45 | No certificado para producción; condiciones para certificar. |
+| 6 | Trazabilidad (IE8) | 0:40 | Requisito → caso → herramienta → resultado → evidencia. Ejemplos RB-6, NFR-PERF-3, NFR-SEG-9. |
+| 7 | Cobertura | 0:40 | Diseño 100 %, ejecución 95,6 %, código 93,3 %. Por qué SonarQube dice 68,9 %. |
+| 8 | Análisis estático vs norma (IE6) | 0:55 | Hallazgo → CWE/OWASP → Ley 21.719 / ISO 27001 / ISO 25010. La puerta de calidad «Passed» solo mira código nuevo; el código completo es C. |
+| 9 | Defectos | 0:50 | 16 incidentes en 4 niveles; crítico INC-02; INC-07 queda en observación, no cerrado. |
+| 10 | Hallazgo INC-16 | 0:50 | SonarQube lo marcó y yo lo reproduje: 8,3 s de bloqueo con una sola solicitud. |
+| 11 | Reflexiones | 0:55 | Calidad, seguridad, normativa (Ley 21.719) y ética (Ley 21.459). |
+| 12 | Dictamen (IE10) | 0:50 | No certificado; cada recomendación con su evidencia y su fundamento normativo o ético. |
 
-Total aproximado: 8:05.
+Total aproximado: 9:45. Si vas justo de tiempo, acorta Herramientas y Cobertura.
 
 ### Si preguntan por el origen del código
 Respuesta corta y verdadera: «Partí de un código base propio que había hecho antes en el curso y lo adapté a este dominio, con requisitos y reglas de negocio propios». No hace falta extenderse, pero no lo niegues.
